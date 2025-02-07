@@ -10,9 +10,15 @@ const contactus = require('./contact_us');
 const history = require('./history');
 const check_history = require('./check_history');
 
+
+
 app.use(cors());
 app.use(express.json());
-
+app.use(cors({
+  origin : [""],
+  method : ["POST", "GET"],
+  credentials : true}
+  ));
 // Use route files
 app.use('/check_user', login);
 app.use('/register', register);

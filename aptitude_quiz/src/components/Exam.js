@@ -27,7 +27,7 @@ function Exam( props) {
   const handleTimeUp = async() => {
     setShowResults(true);
     try {
-      const response = await axios.post('http://localhost:3001/history', {
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/history`, {
           email: sessionStorage.getItem("user") ? JSON.parse(sessionStorage.getItem("user")).email : "unknown",
           examNumber: num,
           answerObj: userAnswer,

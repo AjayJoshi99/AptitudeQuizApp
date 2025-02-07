@@ -14,7 +14,7 @@ const History = (props) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.post('http://localhost:3001/check_history', {
+        const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/check_history`, {
           email: user ? user.email : "unknown",
         });
         if (response.data.success) {

@@ -15,7 +15,7 @@ const check_history = require('./check_history');
 app.use(cors());
 app.use(express.json());
 app.use(cors({
-  origin : [""],
+  origin : ["https://aptitude-quiz-frontend-684iu1c8r-ajay-joshis-projects.vercel.app/"],
   method : ["POST", "GET"],
   credentials : true}
   ));

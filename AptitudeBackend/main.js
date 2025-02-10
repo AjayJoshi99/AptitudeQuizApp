@@ -19,6 +19,9 @@ app.use(cors({
   method : ["POST", "GET"],
   credentials : true}
   ));
+app.get("/", (req, res) => {
+  res.send("Server is running!!");
+});
 // Use route files
 app.use('/check_user', login);
 app.use('/register', register);

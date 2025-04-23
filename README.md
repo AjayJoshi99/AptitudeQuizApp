@@ -28,6 +28,7 @@ https://aptitude-quiz-frontend.vercel.app/
 
 ## 📂 Folder Structure (Optional)
 
+```bash
 ├── aptitude_quiz/               # React frontend app
 │   ├── build/                   # Production build files
 │   ├── node_modules/            # Frontend dependencies

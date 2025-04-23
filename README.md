@@ -64,25 +64,25 @@ https://aptitude-quiz-frontend.vercel.app/
 Clone the repo
 git clone https://github.com/yourusername/online-aptitude-quiz-app.git
 
-Install dependencies
-cd client && npm install
-cd ../server && npm install
+Install dependencies  
+cd client && npm install  
+cd ../server && npm install  
 
-Run frontend and backend
-npm run dev     # (Optional: Use concurrently)
+Run frontend and backend  
+npm run dev     # (Optional: Use concurrently)  
 
 
 # 🧪 Test Credentials : 
-Email : helloworld111@yahoo.com
-Password : Hello@1234
+Email : helloworld111@yahoo.com  
+Password : Hello@1234  
 
 
 # 🙌 Contributing : 
-Contributions are welcome!
-Please fork the repo and submit a pull request. For major changes, open an issue first to discuss what you'd like to change.
+Contributions are welcome!  
+Please fork the repo and submit a pull request. For major changes, open an issue first to discuss what you'd like to change.  
 
 
 # 👨‍💻 Author
-Ajay Joshi
-LinkedIn | GitHub
-📧 ajayjoshi@gmail.com
+Ajay Joshi  
+LinkedIn | GitHub  
+📧 ajayjoshi@gmail.com  

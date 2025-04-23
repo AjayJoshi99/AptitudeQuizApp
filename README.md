@@ -61,14 +61,14 @@ https://aptitude-quiz-frontend.vercel.app/
 
 
 # 📦 Setup Instructions : 
-**Clone the repo**
+Clone the repo  
 git clone https://github.com/yourusername/online-aptitude-quiz-app.git
 
-**Install dependencies  **
+Install dependencies    
 cd client && npm install  
 cd ../server && npm install  
 
-**Run frontend and backend  **
+Run frontend and backend    
 npm run dev     # (Optional: Use concurrently)  
 
 
